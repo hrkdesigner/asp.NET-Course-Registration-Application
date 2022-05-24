@@ -1,0 +1,245 @@
+body {
+    font: "Trebuchet MS", Verdana, sans-serif;
+    background-color: lightyellow;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
+    
+}
+
+h1 {
+    width: 100%;
+    font: Georgia, serif;
+    border-bottom: 3px solid #cc9900;
+    color: #996600;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.emphsis {
+    font-weight: 500;
+    font-style: italic;
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+.distinct {
+    color: blue;
+    font: bold;
+}
+
+.button {
+    border: 2px solid #f00;
+    border-style: ridge;
+    width: 7em;
+    background-color:lightblue;
+}
+
+    .button:hover {
+        border: 2px solid #f00;
+        background: #eef;
+    }
+
+.input {
+    border: 2px solid #006;
+    border-style: groove;
+    background: #ffc;
+    width: 300px;
+}
+
+    .input:hover {
+        border: 2px solid #f00;
+        background: #ff6;
+    }
+
+.table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+    .table th {
+        font-size: 13px;
+        font-weight: normal;
+        padding: 8px;
+        background: #b9c9fe;
+        border-top: 4px solid #aabcfe;
+        border-bottom: 1px solid #fff;
+        color: #039;
+    }
+
+    .table td {
+        padding: 8px;
+        background: #e8edff;
+        border-bottom: 1px solid #fff;
+        color: #669;
+        border-top: 1px solid transparent;
+    }
+
+    .table tr:hover td {
+        background: #d0dafd;
+        color: #339;
+    }
+
+.dropdown {
+    border: 2px solid #006;
+    border-style: groove;
+    background: #ffc;
+    width: 15em;
+}
+
+    .dropdown:hover {
+        border: 2px solid #f00;
+        background: #ff6;
+    }
+
+#form1 {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    border: 1px solid blue;
+}
+
+#form1 > div {
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#form1 > div > * {
+    width: 100%;
+}
+
+#total > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+    #total > div > * {
+        width: 60%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+#studentName, #studentTypeList {
+    width: 300px;
+    height: 30px;
+}
+
+#cmdAdd {
+    width: 100px;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}
+label {
+    margin-right: 5px;
+}
+#studentsTable {
+    width: 100% !important;
+    margin-top: 30px;
+    background-color: yellow;
+}
+th {
+    width: 100% !important;
+    height: 30px;
+}
+
+tr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button {
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+thead {
+    background-color: orange;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+tbody {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+tbody> tr{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.table td {
+    width: 100%;
+    height: 100% !important;
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+}
+
+.table tr:hover td {
+    background-color: yellow !important;
+    color: black;
+    cursor: default;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.table tr td {
+    display: felx;
+    align-items: center;
+    justify-content: center;
+}
+
+.table td input, .table td select {
+    width: 30px !important;
+}
+
+
+#saveStudent {
+    margin: 20px 0;
+    width: 200px;
+    height: 30px;
+    background-color: green;
+}
+
+.notification {
+    background-color: orange !important;
+}
